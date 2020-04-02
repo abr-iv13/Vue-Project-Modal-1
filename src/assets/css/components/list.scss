@@ -1,0 +1,82 @@
+.amodev-list {
+  background: #0005;
+  position: fixed;
+  left: 65px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10001;
+  display: none;
+  align-items: center;
+  justify-content: center;
+
+  &-wrap {
+    margin-top: 2rem;
+    margin-bottom: auto;
+    min-width: 700px;
+    width: 80%;
+    min-height: 400px;
+    background: #fff;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+  }
+
+  &-navbar {
+    display: flex;
+    list-style: none;
+    height: 80px;
+    // border-bottom: 1px solid #eee;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 1rem;
+
+    &-item {
+      display: flex;
+      height: 70%;
+      align-items: center;
+      padding: 0 1rem 3px 1rem;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 100;
+      color: #276bcb;
+
+      &._active {
+        color: #043c6b;
+
+        span {
+          border-bottom: 2px solid #ff4c00;
+          padding-bottom: 1px;
+          margin-bottom: -3px;
+        }
+      }
+    }
+  }
+
+  &-body {
+    padding: 0.5rem 2rem 0 2rem;
+  }
+
+  &-products {
+    .ant-table-body {
+      margin: 0 !important;
+    }
+
+    .ant-table-thead > tr > th,
+    .ant-table-tbody > tr > td {
+      padding: 8px 16px !important;
+
+      &.col-price {
+        width: 200px;
+        text-align: center;
+      }
+      &.col-expires {
+        width: 200px;
+        text-align: center;
+      }
+      &.col-actions {
+        width: 120px;
+        text-align: center;
+      }
+    }
+  }
+}

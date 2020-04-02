@@ -1,0 +1,37 @@
+@import './sidebar.scss';
+@import './list.scss';
+
+._amodev_visible {
+  display: block;
+
+  &_flex {
+    display: flex;
+  }
+}
+// .st-desc {
+//   margin-top:-21px;
+// }
+.ant-col-1{
+  margin-top: -18px;
+}
+.title-header{
+    font-size: 16px;
+    position: relative;
+    bottom: 14px;
+}
+.x-close-modal {
+  position: relative;
+  bottom: 40px;
+  left: 469px;
+  cursor: pointer;
+}
+.ant-dropdown-link {
+position: relative;
+bottom: 57px;
+left: 448px;
+}
+.button-header{
+position: relative;
+left: 297px;
+bottom: 181px;
+}
