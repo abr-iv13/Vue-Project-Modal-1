@@ -13,7 +13,7 @@
     "@vue/babel-preset-app": "^4.2.2",
     "ant-design-vue": "^1.4.10",
     "axios": "^0.19.0",
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.19",
     "moment": "^2.24.0",
     "qs": "^6.9.1",
     "uuidv4": "^6.0.0",
